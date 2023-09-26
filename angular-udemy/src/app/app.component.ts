@@ -12,9 +12,6 @@ export class AppComponent implements OnInit{
   constructor(){}
 
   ngOnInit(): void {}
-  
-  public destruirComponente(){
-    this.destruir = false
-  }
 
+  
 }
