@@ -1,0 +1,35 @@
+<!-- Serve para selecionar aonde vai aparecer o conteúdo do componente -->
+<!-- <ng-content select="h1"></ng-content> -->
+
+<!-- Trocando a classe -->
+<!-- <p [ngClass]="{'active': valor, 'disabled': !valor}">NgClass</p> -->
+
+<!-- Trocando o estilo -->
+<!-- <p [ngStyle]="{'height': heightPx, 'background': backgroundColor}">NgStyle</p> -->
+
+<!-- Bom para usar em aplicativo de mensagem -->
+<!-- <input (keyup.enter)="salvar()" [(ngModel)]="nome"> {{ nome }}
+<button (click)="salvar()">Salvar</button>
+<li *ngFor="let item of list">
+    {{ item.nome }}
+</li> -->
+
+
+<!-- Não entendi muito bem para que serve,
+parece que é para acontecer antes do navegador fazer a validaçao do DOM. -->
+<!-- <ng-template ngFor let-item [ngForOf]="list">
+    <p>
+        {{ item.nome }}
+    </p>
+</ng-template> -->
+
+<!-- Serve para selecionar aonde vai aparecer o conteúdo do componente -->
+<!-- <ng-content select="hr"></ng-content> -->
+
+<!-- Código para pipe -->
+<!-- <input (keyup.enter)="salvar()" [(ngModel)]="nome"> {{ nome }}
+<button (click)="salvar()">Salvar</button>
+<li *ngFor="let item of list">
+    {{ item.nome | uppercase}}
+</li> -->
+{{ date | date: 'dd/MM/yyyy'}}
