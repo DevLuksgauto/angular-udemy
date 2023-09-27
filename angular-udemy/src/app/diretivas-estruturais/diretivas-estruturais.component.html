@@ -1,0 +1,41 @@
+<!-- Somente para piscar o True -->
+<!-- <p *ngIf="condition">True</p> -->
+
+
+<!-- Para ficar trocando entre True e False -->
+<!-- <p *ngIf="condition; else elseBlock">True</p>
+
+<ng-template #elseBlock>
+    <p>
+        False
+    </p>
+</ng-template> -->
+
+
+<!-- Utilizando para fazer um esconder/mostrar -->
+<!-- <p *ngIf="conditionClick">True</p>
+<p *ngIf="!conditionClick">False</p>
+<button (click)="onClick()">Clicar</button> -->
+
+
+<!-- Utilizando para fazer uma interação entre os elementos de um array -->
+<!-- <p *ngFor="let item of list; let i  = index;" (click)="onClickEvent(i)" >
+    [{{ i + 1}}] - {{ item.nome }} = {{ item.idade }}
+</p>
+<button (click)="onClickAddList()">Add</button> -->
+
+
+<!-- Maneira de fazer um switch, ajuda a fazer campo de buscas por exemplo -->
+<!-- <input [(ngModel)]="nome">
+<div [ngSwitch]="nome">
+    <p *ngSwitchCase="''"></p>
+    <p *ngSwitchCase="'Lucas'">Lucas</p>
+    <p *ngSwitchCase="'Bruno'">Bruno</p>
+    <p *ngSwitchCase="'Solange'">Solange</p>
+    <p *ngSwitchCase="'Ibira'">Ibira</p>
+    <p *ngSwitchCase="'Mari'">Mari</p>
+    <p *ngSwitchCase="'Rafael'">Rafael</p>
+    <p *ngSwitchCase="'Marcus'">Marcus</p>
+    <p *ngSwitchDefault>Lucas é lindo e sua busca não achou nada!</p>
+</div> -->
+
